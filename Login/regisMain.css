@@ -1,0 +1,80 @@
+
+body {
+    font-family: 'Quicksand', sans-serif;
+	background: #ffffff;
+	background-size: 100% 100%;
+	animation: gradient 15s ease infinite;
+	height: 80vh;
+}
+
+fieldset {
+    /* background-color: yellow; */
+    border: 0;
+    box-sizing: border-box;
+    box-shadow: black;
+    border-radius: 100px;
+    text-align: center;
+    margin: 20px;
+}
+
+fieldset span1 {
+    color: red;
+    font-size: 25px;
+}
+
+legend {
+    /* background-color: rgb(167, 0, 144); */
+    color: rgb(0, 0, 0);
+    padding: 50px 40px;
+    font-size: 30px;
+    border-radius: 200px;
+    text-align: center;
+}
+
+input {
+    margin: 10px;
+}
+
+.Register {
+    border-radius: 20px;
+}
+
+.buttonStyle1 {    
+    border-radius: 10px;
+    border: 0;
+    width: 150px;
+    height: 30px;
+
+    color: white;
+    background-color: rgb(47, 162, 255);
+}
+.buttonStyle1:hover {
+    box-shadow: 11px 7px 17px 0px rgba(0,0,0,0.75);
+}
+
+.buttonStyle2 {
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 0;
+    width: 150px;
+    height: 30px;
+
+    color: white;
+    background-color: rgb(212, 0, 0);
+}
+.buttonStyle2:hover {
+    box-shadow: 11px 7px 17px 0px rgba(0,0,0,0.75);
+}
+
+.buttonStyle3 {    
+    border-radius: 10px;
+    border: 0;
+    width: 170px;
+    height: 30px;
+
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+.buttonStyle3:hover {
+    box-shadow: 11px 7px 17px 0px rgba(0,0,0,0.75);
+}
